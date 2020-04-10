@@ -1,0 +1,65 @@
+#container{
+    width: 100%;
+    height: 70vh;
+    /* background-color: aqua; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#tabs{
+    width: 80%;
+    height: 5vh;
+    /* border: 2px solid black; */
+}
+
+.tab{
+    width: 32%;
+    height: 2rem;
+    background-color: rgb(68, 168, 206);
+    color: white;
+    border: 1px solid black;
+}
+
+.tab:hover{
+    background-color: rgb(37, 119, 151);
+}
+
+#options{
+    width: 80%;
+    height: 5vh;
+    /* border: 2px solid black; */
+}
+
+.option{
+    width: 20%;
+    height: 2rem;
+    margin-left: 10%;
+    border: 1px solid black;
+
+    display: none;
+}
+
+#start{
+    background-color: rgb(100, 164, 14);
+    color: white;
+}
+
+#start:hover{
+    background-color: rgb(71, 114, 15);
+}
+
+#stop{
+    background-color: rgb(190, 7, 7);
+    color: white;
+}
+
+#stop:hover{
+    background-color: rgb(138, 8, 8);
+}
+
+#reset{
+    background-color: rgb(233, 233, 233);
+}
